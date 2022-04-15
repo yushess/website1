@@ -11,7 +11,7 @@ margin: 0;
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: #aaabb8;
+  background: #daf3;
 
   font-size: 15px;
   line-height: 1.5;
@@ -96,6 +96,19 @@ h6 {
   transition: color .2s linear;
 }
 
+/* полоска bar */
+.nav__link::after { 
+content: "";
+display: block;
+width: 100%;
+height: 1px;
+
+background-color: #333;
+
+
+
+}
+
 .nav__link:hover {
-  color: #376e6f;
+  color: #423189;
 }

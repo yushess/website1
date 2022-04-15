@@ -2,3 +2,9 @@
 margin: 0;
 
 }
+.poloska{
+  padding-top: 100px;
+   padding-left: 0;/* хз как сделать отсуп полоски от всего остального текста через css */
+  padding-bottom: 0;
+  padding-right: 0;
+}

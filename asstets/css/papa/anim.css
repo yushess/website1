@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #aaabb8;
+
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* контейнер, каркас сайта */
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* интро АКА фоновая картинка */
+.intro {
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/back.jpeg") center no-repeat;
+    background-size: cover;
+}

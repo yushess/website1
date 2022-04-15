@@ -8,3 +8,94 @@ margin: 0;
   padding-bottom: 0;
   padding-right: 0;
 }
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #aaabb8;
+
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+
+* *:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* контейнер, каркас сайта */
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* интро АКА фоновая картинка */
+.intro {
+  width: 100%;
+  height: 100vh;
+
+  background: url("../css/images/intro.jpeg") center no-repeat;
+  background-size: cover;
+}
+
+/* header, или же шапка */
+.header {
+  width: 100%;
+  padding-top: 30px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2e151b;
+}
+
+.header__numb {
+
+  font-size: 20px;
+
+  margin-left: 650px;
+}
+
+/* Navigation*/
+.nav {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+
+  color: #fff;
+  text-decoration: none;
+
+  transition: color .2s linear;
+}
+
+.nav__link:hover {
+  color: #376e6f;
+}

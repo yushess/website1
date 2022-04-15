@@ -42,9 +42,9 @@ h6 {
 
 /* интро АКА фоновая картинка */
 .intro {
-  width: 100%;
-  height: 100vh;
-
+  /*width: 100%;
+  height: 100vh; */
+  background-size:100% 100%;
   background: url("../css/images/intro.jpeg") center no-repeat;
   background-size: cover;
 }
@@ -112,4 +112,14 @@ background-color: #333;
 
 .nav__link:hover {
   color: #423189;
+}
+.probel{
+  text-align: center;
+  margin: 10%;
+}
+.zagol{
+  text-align: center;
+}
+.probel1{
+  margin: 50px;
 }

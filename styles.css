@@ -14,6 +14,7 @@ body {
    font-size: 18px;/* увеличил размер текста на сайте */
   line-height: 1.5;
   color: #333;
+  /* box-sizing: border-box; */
 }
 
 * *:before,

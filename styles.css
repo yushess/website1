@@ -14,7 +14,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: rgba(194, 104, 255, 0.2);
 
-  font-size: 18px;
+   font-size: 19px;/* увеличил размер текста на сайте */
   line-height: 1.5;
   color: #333;
 }

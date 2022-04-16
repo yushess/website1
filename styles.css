@@ -122,12 +122,16 @@ background-color: #333;
 .zagol{
   text-align: center;
 }
-.probel1{
-  margin: 33px;
-}
-p{
+.fon4ik{
   font-size:22px;
-  border: 1px solid rgb(255, 188, 88);
-  border-bottom-style: dotted ;
   background: rgb(255, 188, 88);
+  padding: 0;
+  margin:0;
 }
+.ultras{
+  margin: 44px;
+}
+.po4ta{
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+} 

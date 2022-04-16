@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .container {
 margin: 0;
 
 }
 .poloska{
-  padding: 0;
-  /* padding-top: 100px; 
-   padding-left: 0; хз как сделать отсуп полоски от всего остального текста через css 
+
+   padding-top: 0; 
+    padding-left: 0; /* хз как сделать отсуп полоски от всего остального текста через css  */
   padding-bottom: 0;
-  padding-right: 0; */
+  padding-right: 0; 
 }
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  background: rgba(194, 104, 255, 0.2);
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  background: rgba(255, 255, 255, 0.2);
 
-  font-size: 15px;
+   font-size: 18px;/* увеличил размер текста на сайте */
   line-height: 1.5;
   color: #333;
 }
@@ -42,9 +45,14 @@ h6 {
 
 /* интро АКА фоновая картинка */
 .intro {
+
   /*width: 100%;
   height: 100vh; */
-  background-size:100% 100%;
+
+
+  background-size:100% 100% ;
+
+
   background: url("../css/images/intro.jpeg") center no-repeat;
   background-size: cover;
 }
@@ -121,5 +129,11 @@ background-color: #333;
   text-align: center;
 }
 .probel1{
-  margin: 50px;
+  margin: 33px;
+}
+p{
+  font-size:22px;
+  border: 1px solid rgb(255, 188, 88);
+  border-bottom-style: dotted ;
+  background: rgb(255, 188, 88);
 }

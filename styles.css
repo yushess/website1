@@ -4,3 +4,10 @@ body{
 .p-0{
   padding: 0;
 }
+.fon4ik{
+  font-size:28px;
+  background: #ffc98c; /*rgb(255, 188, 88) */
+  padding: 5px;
+  margin: 100px;;
+  border-radius: 20px;
+}

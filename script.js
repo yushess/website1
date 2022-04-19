@@ -1,3 +1,4 @@
-console.log('pizda')
-let a = 'me die'
-let ab = 'blyadota'
+$('.carousel').carousel({
+    interval: 2000,
+    wrap:true
+  })

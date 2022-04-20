@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
 body{
   height: 2000px;
+}
+body,.f2{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .p-0{
   padding: 0;
 }
-.fon4ik,.f2{
+.f2{
   font-size:28px;
-  background: #ffc98c; /*rgb(255, 188, 88) */
+  background: #97d8c0; /*rgb(255, 188, 88) */
   padding: 10px;
   margin: 30px;
   margin-left: 10%;
@@ -15,7 +21,7 @@ body{
   text-align: center;
 }
 #knopka{
-  background-color: #ffb259;
+  background-color: #97d8c0;
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -39,3 +45,12 @@ h1{
 .d-block{
   height: 800px;
 }
+.nav-link{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+/* #5D5C61
+#379683
+#7395AE
+#557A95
+#81A296 */

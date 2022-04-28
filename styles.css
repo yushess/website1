@@ -11,13 +11,13 @@ body,.f2{
   padding: 0;
 }
 .f2{
-  font-size:28px;
-  background: #97d8c0; /*rgb(255, 188, 88) */
+  font-size:25px;
+  background: #ffcf75; /*rgb(255, 188, 88) */
   padding: 10px;
   margin: 30px;
   margin-left: 10%;
   margin-right: 10%;
-  border-radius: 20px;
+  border-radius: 15px;
   text-align: center;
 }
 #knopka{
@@ -49,7 +49,7 @@ h1{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
-/* #5D5C61
+/*#5D5C61
 #379683
 #7395AE
 #557A95

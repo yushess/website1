@@ -7,6 +7,9 @@ body,.f2{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
+::before::after{
+  box-sizing: border-box;
+}
 .p-0{
   padding: 0;
 }

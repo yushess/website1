@@ -44,6 +44,7 @@ h1{
   text-align: center;
   margin: 0;
   padding: 0;
+  color:#be95ff;
 }
 .anketa{
   margin-left: 15%;
@@ -57,12 +58,12 @@ h1{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
-h1{
-  color:#ffcf75;
-}
 .img-fluid{
   height: 100px;
   width: 100px;
+}
+.bg-success{
+  border-radius: 14px;
 }
 /*#5D5C61
 #379683
